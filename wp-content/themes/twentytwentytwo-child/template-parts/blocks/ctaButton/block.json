@@ -1,0 +1,25 @@
+{
+  "name": "custom/ctabutton",
+  "title": "CTA Button",
+  "description": "A call to action button",
+  "category": "design",
+  "keywords": ["cta", "button"],
+  "icon": "button",
+  "apiVersion": 3,
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Get in touch"
+    },
+    "align": {
+      "type": "string",
+      "default": "left"
+    },
+    "destination": {
+      "type": "string",
+      "default": "/contact-us/"
+    }
+  },
+  "render": "file:./ctaButton.php"
+}

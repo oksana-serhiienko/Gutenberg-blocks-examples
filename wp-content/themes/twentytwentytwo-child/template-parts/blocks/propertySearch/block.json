@@ -1,0 +1,9 @@
+{
+  "apiVersion": 3,
+  "name": "custom/propertysearch",
+  "title": "Property Search Widget",
+  "description": "Property search widget",
+  "category": "widgets",
+  "icon": "search",
+  "editorScript": "file:./index.js"
+}
