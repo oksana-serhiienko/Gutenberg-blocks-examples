@@ -1,0 +1,9 @@
+{
+  "apiVersion": 3,
+  "name": "custom/propertyfeatures",
+  "title": "Property Features",
+  "category": "design",
+  "icon": "star-filled",
+  "editorScript": "file:./index.js",
+  "render": "file:./propertyFeatures.php"
+}
