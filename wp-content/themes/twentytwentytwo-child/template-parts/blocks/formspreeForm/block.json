@@ -1,0 +1,10 @@
+{
+    "name": "custom/formspreeform",
+    "title": "Formspree Form",
+    "description": "A block to render a form",
+    "category": "design",
+    "keywords": ["form", "formspree form", "contact form"],
+    "icon": "format-aside",
+    "apiVersion": 3,
+    "editorScript": "file:./index.js"
+}

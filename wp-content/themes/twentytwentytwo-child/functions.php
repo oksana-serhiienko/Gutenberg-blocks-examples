@@ -93,4 +93,8 @@ function register_custom_blocks() {
     register_block_type(
         get_stylesheet_directory() . '/template-parts/blocks/propertySearch'
     );
+
+    register_block_type(
+        get_stylesheet_directory() . '/template-parts/blocks/formspreeForm'
+    );
 }
