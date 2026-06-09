@@ -85,7 +85,24 @@ add_action('enqueue_block_editor_assets', function () {
             get_stylesheet_directory() . '/template-parts/blocks/ctaButton/index.js'
         )
     );
+
+    wp_enqueue_script(
+        'tickitem-test',
+        get_stylesheet_directory_uri() . '/template-parts/blocks/tickItem/index.js',
+        ['wp-blocks','wp-element','wp-components','wp-block-editor'],
+        filemtime(
+            get_stylesheet_directory() . '/template-parts/blocks/tickItem/index.js'
+        )
+    );
 });
+
+add_action('enqueue_block_editor_assets', function () {
+    wp_enqueue_style(
+        'font-awesome',
+        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'
+    );
+});
+
 function register_custom_blocks() {
     register_block_type(
         get_stylesheet_directory() . '/template-parts/blocks/ctaButton'
@@ -100,5 +117,9 @@ function register_custom_blocks() {
 
     register_block_type(
         get_stylesheet_directory() . '/template-parts/blocks/propertyFeatures'
+    );
+
+    register_block_type(
+        get_stylesheet_directory() . '/template-parts/blocks/tickItem'
     );
 }

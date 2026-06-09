@@ -1,0 +1,8 @@
+{
+  "apiVersion": 3,
+  "name": "custom/tickitem",
+  "title": "Tick Item",
+  "category": "widgets",
+  "icon": "yes-alt",
+  "editorScript": "file:./index.js"
+}
